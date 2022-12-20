@@ -1,16 +1,9 @@
-# build-cash-register-manager
-A cash register manager which helps the user by telling how can he/she return the change to the customer with minimum number of notes.
-<br/>
-<br/>
-# How to use:
- - Enter the bill amount you have to pay & click on **Next**
- - Enter the cash amount you have & click on **Check**
- - Output will be shown below the check button
+# Cash-Register
+## What it does?
+- An application to know how many notes to return to the customer from each of these currencies 1,5,10,20,100,500,2000.
+- It takes input of bill amount value and cash given by customer and shows the output of no. of notes to return from each currency value.
 
-# Programming Language:
- - html
- - css 
- - javascript 
+## Programming Languages:
+Built using HTML, CSS and Vanilla JS. Hosted on Netlify.
 
-Don't forget to leave a ⭐ if you found this useful.
-
+Live Link : https://cash-return-register.netlify.app/

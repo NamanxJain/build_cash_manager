@@ -1,122 +1,84 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+*{
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-size: cover;
+    margin-top: 5%;
 }
 
-a {
-  text-decoration: none;
+.outer-box{
+    border-radius: 19px;
+    margin-bottom: 10%;
+    width: 100%;
+    max-width: 500px;
+    min-height: 200px;
+    margin: auto;
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: rgba(84, 90, 83, 0.201);
+}
+h1, p{
+    color: black;
+}
+.label{
+    font-size: 1.3rem;
+    padding: 1.5rem 1rem 0.5rem;
+    color: #000000;;
+    
+}
+input{
+    width: 100%;
+    border: 1px solid black;
+    padding: 1rem;
+    height: 50px;
+    display: block;
 }
 
-:root {
-  --primary-color: #ed3a3a;
+button{
+    padding: 0.5rem 1rem;
+    display: block;
+    font-size: 1rem;
+    border: 1px solid black;
+    margin: 1rem auto 0;
+    background-color:white;
+    border-radius: 19px;
+    font-weight: bold;
+}
+#next-Btn,#check-Btn{
+    cursor: pointer;
 }
 
-body {
-  font-family: "Montserrat", sans-serif;
-  min-width: 100vw;
-  background-color: antiquewhite;
+.cashGivenInput{
+    display: none;
+}
+.changeReturn{
+    display: none;
+}
+.errorMsg{
+    padding-top: 1rem;
+    color:white;
+}
+#output{
+    margin: 1rem 0;    
 }
 
-/* Container */
-.container {
-  margin: 4rem auto 7rem;
-  text-align: center;
- 
+#output table, th, td{
+    padding: 0.2rem;
+    background-color: #f6311f;
+    border: 2px solid black ;
+    border-collapse: collapse;
+}
+.noOfNotes{
+    background-color:white;
+    font-weight: bold;
 }
 
-.heading {
-  color: var(--primary-color);
-  
+table{
+    width: 100%;
+    table-layout: fixed;
 }
 
-.description {
-  font-size: larger;
-  margin: 1rem;
-}
-
-.input-label {
-  display: block;
-  font-size: large;
-  font-weight: 600;
-}
-
-.input {
-  font-size: 14px;
-  outline: #fff;
-  padding: 0.6rem 1rem;
-  margin: 1rem;
-  border: 2px solid var(--primary-color);
-  border-radius: 0.5rem;
-  width: 100%;
-  max-width: 258px;
-}
-
-#check-button {
-  background: var(--primary-color);
-  border: none;
-  color: #fff;
-  padding: 0.7rem 1rem;
-  border-radius: 0.5rem;
-  font-size: large;
-  cursor: pointer;
-  outline: #fff;
-  margin: auto;
-  display: block;
-}
-
-#error-message {
-  display: block;
-  font-size: larger;
-  margin: 1rem 0 0;
-}
-
-/* Table */
-.change-table {
-  width: 50%;
-  text-align: justify;
-  border-collapse: collapse;
-  margin: auto;
-}
-
-.change-table caption {
-  margin: 1rem auto;
-  font-size: x-large;
-  font-weight: 500;
-}
-
-th,
-td {
-  border: 2px solid var(--primary-color);
-  width: 0%;
-  border-collapse: collapse;
-  padding: 0.4rem;
-}
-
-/* footer */
-
-footer {
-  text-align: center;
-}
-
-footer p {
-  font-size: large;
-  text-align: center;
-}
-
-.footer-list {
-  margin: 1rem;
-}
-
-a,
-img,
-li {
-  display: inline;
-}
-
-img {
-  width: 40px;
-  padding: 0.2rem;
+th,td{
+    word-wrap: break-word;
 }
